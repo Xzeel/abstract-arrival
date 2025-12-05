@@ -43,7 +43,7 @@ const Index = () => {
       <main className="relative z-10 flex-1 flex items-center justify-center px-6">
         <div className="text-center max-w-2xl mx-auto">
           {/* Coming Soon Title */}
-          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-foreground animate-fade-in-up">
+          <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight text-shine animate-fade-in-up">
             COMING SOON
           </h1>
 
