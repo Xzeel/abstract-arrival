@@ -69,7 +69,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="relative z-10 py-6 text-center animate-fade-in-up-delay-2">
         <p className="text-sm text-muted-foreground/70">
-          © {currentYear} All rights reserved.
+          © {currentYear} XzeelArcadia. All Rights Reserved.
         </p>
       </footer>
     </div>
