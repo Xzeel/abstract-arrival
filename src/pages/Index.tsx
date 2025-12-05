@@ -1,4 +1,5 @@
 import SparkleEffect from "@/components/SparkleEffect";
+import AudioPlayer from "@/components/AudioPlayer";
 
 const Index = () => {
   const currentYear = new Date().getFullYear();
@@ -43,6 +44,9 @@ const Index = () => {
 
       {/* Sparkle Effect */}
       <SparkleEffect />
+
+      {/* Background Music Player */}
+      <AudioPlayer />
 
       {/* Main Content */}
       <main className="relative z-10 flex-1 flex items-center justify-center px-6">
