@@ -1,3 +1,5 @@
+import SparkleEffect from "@/components/SparkleEffect";
+
 const Index = () => {
   const currentYear = new Date().getFullYear();
 
@@ -38,6 +40,9 @@ const Index = () => {
           backgroundSize: '60px 60px'
         }}
       />
+
+      {/* Sparkle Effect */}
+      <SparkleEffect />
 
       {/* Main Content */}
       <main className="relative z-10 flex-1 flex items-center justify-center px-6">
