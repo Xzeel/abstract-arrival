@@ -25,7 +25,7 @@ const AudioPlayer = () => {
 
   return (
     <>
-      <audio ref={audioRef} src="/audio/Bintang5.mp3" loop />
+      <audio ref={audioRef} src="/audio/bgm.mp3" loop />
       <button
         onClick={togglePlay}
         className="fixed bottom-6 right-6 z-50 p-3 rounded-full bg-primary/20 backdrop-blur-sm border border-primary/30 text-foreground hover:bg-primary/30 transition-all duration-300 hover:scale-110"
